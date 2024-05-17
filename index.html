@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<link href="https://fonts.googleapis.com/css?family=Cardo:400i|Open+Sans:700|Raleway:300,400,600,700&display=swap&subset=cyrillic" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+
+		<title>Modernium</title>
+	</head>
+	<body>
+
+<!-- Sprite -->	
+<svg style="display: none;">
+		
+		<symbol id="facebook" viewBox="-110 1 511 511.99896">
+			<g>
+				<path d="m207.363281 126.734375c.699219-.789063 3.96875-3.367187 16.808594-3.367187l42.097656-.015626c13.695313 0 24.832031-11.140624 24.832031-24.835937v-73.578125c0-13.671875-11.121093-24.8125-24.792968-24.835938l-62.53125-.101562c-38.59375 0-71.402344 12.730469-94.878906 36.820312-23.371094 23.980469-35.726563 57.457032-35.726563 96.804688v39.683594h-47.835937c-13.695313 0-24.835938 11.140625-24.835938 24.835937v79.242188c0 13.695312 11.140625 24.835937 24.835938 24.835937h47.835937v184.941406c0 13.695313 11.140625 24.835938 24.835937 24.835938h81.992188c13.695312 0 24.835938-11.140625 24.835938-24.835938v-184.9375h58.472656c13.695312 0 24.832031-11.144531 24.832031-24.832031l.03125-79.246093c0-8.996094-4.894531-17.320313-12.777344-21.722657-3.652343-2.039062-7.902343-3.117187-12.285156-3.117187h-58.273437v-31.351563c0-10.21875 1.375-13.917969 2.527343-15.222656zm0 0"/>
+			</g>
+		</symbol>
+
+		<symbol id="twitter" viewBox="0 0 512 512">
+			<g>
+				<path d="M512,97.248c-19.04,8.352-39.328,13.888-60.48,16.576c21.76-12.992,38.368-33.408,46.176-58.016
+					c-20.288,12.096-42.688,20.64-66.56,25.408C411.872,60.704,384.416,48,354.464,48c-58.112,0-104.896,47.168-104.896,104.992
+					c0,8.32,0.704,16.32,2.432,23.936c-87.264-4.256-164.48-46.08-216.352-109.792c-9.056,15.712-14.368,33.696-14.368,53.056
+					c0,36.352,18.72,68.576,46.624,87.232c-16.864-0.32-33.408-5.216-47.424-12.928c0,0.32,0,0.736,0,1.152
+					c0,51.008,36.384,93.376,84.096,103.136c-8.544,2.336-17.856,3.456-27.52,3.456c-6.72,0-13.504-0.384-19.872-1.792
+					c13.6,41.568,52.192,72.128,98.08,73.12c-35.712,27.936-81.056,44.768-130.144,44.768c-8.608,0-16.864-0.384-25.12-1.44
+					C46.496,446.88,101.6,464,161.024,464c193.152,0,298.752-160,298.752-298.688c0-4.64-0.16-9.12-0.384-13.568
+					C480.224,136.96,497.728,118.496,512,97.248z"/>
+			</g>
+		</symbol>
+
+		<symbol id="linkedin" viewBox="0 0 510 510">
+			<g>
+					<path d="M459,0H51C22.95,0,0,22.95,0,51v408c0,28.05,22.95,51,51,51h408c28.05,0,51-22.95,51-51V51C510,22.95,487.05,0,459,0z
+						 M153,433.5H76.5V204H153V433.5z M114.75,160.65c-25.5,0-45.9-20.4-45.9-45.9s20.4-45.9,45.9-45.9s45.9,20.4,45.9,45.9
+						S140.25,160.65,114.75,160.65z M433.5,433.5H357V298.35c0-20.399-17.85-38.25-38.25-38.25s-38.25,17.851-38.25,38.25V433.5H204
+						V204h76.5v30.6c12.75-20.4,40.8-35.7,63.75-35.7c48.45,0,89.25,40.8,89.25,89.25V433.5z"/>
+				</g>
+		</symbol>
+
+</svg>
+
+<!-- Header -->
+		<header class="header">
+			<div class="container">
+				<div class="header__inner">
+					<div class="header__logo">
+						<img src="img-3/M.png" alt="">
+					</div>
+
+					<nav class="nav">
+						<a class="nav__link" href="#">Отзывы</a>
+						<a class="nav__link" href="#">Работы</a>
+						<a class="nav__link" href="#">Наша комнада</a>
+						<a class="nav__link" href="#">Порфтолио</a>
+						<a class="nav__link" href="#">Контакты</a>
+					</nav>
+				</div>
+			</div>
+		</header>
+
+
+<!-- Intro -->
+		<div class="intro">
+			<div class="container">
+				<div class="intro__inner">
+					<h1 class="intro__title"> 20 лет занимаемся дизайном и ремонтом квартир</h1>
+					<h2 class="intro__subtitle">
+						750+ успешно и вовремя реализованных объектов,37 профессионалов.
+					</h2>
+					<a class="btn btn--red" href="#">Портфолио</a>
+					
+				</div>
+			</div>
+		</div>
+
+<!-- Features -->
+		<div class="container">
+			<div class="features">
+				<div class="features__item">
+					<img class="features__icon" src="img/feature/feature-1.png" alt="">
+					<h4 class="features__title">Чертежные работы</h4>
+					<div class="features_text">Разработка планировочных решений (2−3 варианта и корректировки) Полный пакет чертежей для строителей. </div>
+				</div>
+
+				<div class="features__item">
+					<img class="features__icon" src="img/feature/feature-2.png" alt="">
+					<h4 class="features__title">Фото-изображение</h4>
+					<div class="features_text">Работа с визуализатором.Данная услуга приблизить то, как будет выглядеть проект в реальной жизни.</div>
+				</div>
+
+				<div class="features__item">
+					<img class="features__icon" src="img/feature/feature-3.png" alt="">
+					<h4 class="features__title">Командная работа</h4>
+					<div class="features_text">Над проектом трудиться несколько человек,что очень усокряет работу и реализацию.</div>
+				</div>
+
+				<div class="features__item">
+					<img class="features__icon" src="img/feature/feature-4.png" alt="">
+					<h4 class="features__title">Инженерный подход</h4>
+					<div class="features_text">В команде работают опытные проектровщики, которые подскажут и помогут реализовывать решения любой сложности.</div>
+				</div>
+
+				<div class="features__item">
+					<img class="features__icon" src="img/feature/feature-5.png" alt="">
+					<h4 class="features__title">Большое портфолио</h4>
+					<div class="features_text">Перед началом сотрудничества можете ознакомиться с нашим портфолио с обширным количеством дизайн-проектов.</div>
+				</div>
+
+
+				<div class="features__item">
+					<img class="features__icon" src="img/feature/feature-6.png" alt="">
+					<h4 class="features__title">Работа онлайн</h4>
+					<div class="features_text">Мы создадим ваш проект из любой точки мира. Сможем направить к вам замерщика и проектировщика для ознакомления с объектом. </div>
+				</div>
+			</div> <!-- /.features -->
+		</div>  <!-- /.container -->
+
+<!-- Works -->
+		<div class="works">
+			<div class="works__item">
+				<img class="works__photo" src="img-3/works-5/10.png" alt="">
+				<div class="works__content">
+					<div class="works__title">Дизайн-проект 70м2</div>
+					<div class="works__text">Дмитровское шоссе 43,лит А</div>
+				</div>
+			</div>
+
+			<div class="works__item">
+				<img class="works__photo" src="img-3/works-5/9.png" alt="">
+				<div class="works__content">
+					<div class="works__title">Дизайн-проект дома 150м2</div>
+					<div class="works__text">Новгородский пр.,д2,к3</div>
+				</div>
+			</div>
+
+			<div class="works__item">
+				<img class="works__photo" src="img-3/works-5/11.png" alt="">
+				<div class="works__content">
+					<div class="works__title">Дизайн-проект кухни 20м2</div>
+					<div class="works__text">Гатчна пушкинское шоссе 1</div>
+				</div>
+			</div>
+
+			<div class="works__item">
+				<img class="works__photo" src="img-3/works-5/3.png" alt="">
+				<div class="works__content">
+					<div class="works__title">Дизайн-поект 60м2 ЖК GREEN PARK</div>
+					<div class="works__text">ул.Березовая аллея 19</div>
+				</div>
+			</div>
+
+			<div class="works__item">
+				<img class="works__photo" src="img-3/works-5/14.png" alt="">
+				<div class="works__content">
+					<div class="works__title">Дизайн-проект 89м2 ЖК VITA NOVA</div>
+					<div class="works__text">ул.Мебельная,49/92 </div>
+				</div>
+			</div>
+
+			<div class="works__item">
+				<img class="works__photo" src="img-3/works-5/12.png" alt="">
+				<div class="works__content">
+					<div class="works__title">Дизайн-проект 75м2 ЖК LEGENDA</div>
+					<div class="works__text">ул.Яхтенная д.24</div>
+				</div>
+			</div>
+
+			<div class="works__item">
+				<img class="works__photo" src="img-3/works-5/13.png" alt="">
+				<div class="works__content">
+					<div class="works__title">Дизайн-проект 45м2 ЖК Золотая гавань</div>
+					<div class="works__text">ул.Яхтенная 1/1</div>
+				</div>
+			</div>
+
+			<div class="works__item">
+				<img class="works__photo" src="img-3/works-5/15.png" alt="">
+				<div class="works__content">
+					<div class="works__title">Дизайн-проект 129м2 ЖК Esper Club</div>
+					<div class="works__text">Эсперова ул.,16</div>
+				</div>
+			</div>
+		</div> <!-- /.works -->
+
+<!-- Team -->
+<div class="team">
+	<div class="container">
+		<div class="team__inner">
+
+			<div class="team__item">
+				<img class="team__photo" src="img-3/team/01.png" alt="">
+				<div class="team__name">Алексей Галицкий</div>
+				<div class="team__prof">Ведущий технический специалист</div>
+				<div class="team__text"><p>Работая инженером в разных сферах, я довольно легко перешел к реализации — авторским надзорам по дизайн-проектам. Мой аналитический склад ума, внимательность и честность позволяют выполнять реализацию объектов на высоком уровне.</p></div>
+
+
+				<div class="social">
+					<a class="social__item" href="#" target="_blank">
+						<svg class="social__icon">
+							<use xlink:href="#facebook"></use>
+						</svg>
+					</a>
+					
+					<a class="social__item" href="#" target="_blank">
+						<svg class="social__icon">
+							<use xlink:href="#twitter"></use>
+						</svg>
+					</a>
+
+					<a class="social__item" href="#" target="_blank">
+						<svg class="social__icon">
+							<use xlink:href="#linkedin"></use>
+						</svg>
+					</a>
+				</div>
+
+			</div>
+
+			<div class="team__item">
+				<img class="team__photo" src="img-3/team/02.png" alt="">
+				<div class="team__name">Нелли Галицкая</div>
+				<div class="team__prof">Ведущий дизайнер интерьера</div>
+				<div class="team__text"><p>Я очень люблю свою работу, люблю погружаться в творчество, дарить людям эстетику и комфорт. Я умею легко переключаться между стилями, и создавать абсолютно разные интерьеры. Помимо того, что я очень творческая личность.</p></div>
+
+				<div class="social">
+					<a class="social__item" href="#" target="_blank">
+						<svg class="social__icon">
+							<use xlink:href="#facebook"></use>
+						</svg>
+					</a>
+					
+					<a class="social__item" href="#" target="_blank">
+						<svg class="social__icon">
+							<use xlink:href="#twitter"></use>
+						</svg>
+					</a>
+
+					<a class="social__item" href="#" target="_blank">
+						<svg class="social__icon">
+							<use xlink:href="#linkedin"></use>
+						</svg>
+					</a>
+				</div>
+
+			</div>
+
+			<div class="team__item">
+				<img class="team__photo" src="img-3/team/03.png" alt="">
+				<div class="team__name">Виктория Весна</div>
+				<div class="team__prof">Чертежник- проектровщик</div>
+				<div class="team__text"><p>Мои чертежи красивы и понятны-качественны.Я контактирую со строительной бригадой вместе с дизайнером.У вас не останется лишних вопросов после сдачи проекта.Наша студия подходит ответственноо к каждому этапу проетка.</p></div>
+				
+				<div class="social">
+					<a class="social__item" href="#" target="_blank">
+						<svg class="social__icon">
+							<use xlink:href="#facebook"></use>
+						</svg>
+					</a>
+					
+					<a class="social__item" href="#" target="_blank">
+						<svg class="social__icon">
+							<use xlink:href="#twitter"></use>
+						</svg>
+					</a>
+
+					<a class="social__item" href="#" target="_blank">
+						<svg class="social__icon">
+							<use xlink:href="#linkedin"></use>
+						</svg>
+					</a>
+				</div>
+
+			</div>
+
+			<div class="team__item">
+				<img class="team__photo" src="img-3/team/04.png" alt="">
+				<div class="team__name">Борис Брокар</div>
+				<div class="team__prof">Комплектатор-визуализатор</div>
+				<div class="team__text"><p>Мы подберем любую мебель и декор под ваш бюджет. Нша студия работает со многими поставщиками-от отечественных до инностранных. Мои визуализации влюбляют в проект. Все что изображено на картинке-будет реализовано в жизни.                       </p></div>
+				
+				<div class="social">
+					<a class="social__item" href="#" target="_blank">
+						<svg class="social__icon">
+							<use xlink:href="#facebook"></use>
+						</svg>
+					</a>
+					
+					<a class="social__item" href="#" target="_blank">
+						<svg class="social__icon">
+							<use xlink:href="#twitter"></use>
+						</svg>
+					</a>
+
+					<a class="social__item" href="#" target="_blank">
+						<svg class="social__icon">
+							<use xlink:href="#linkedin"></use>
+						</svg>
+					</a>
+				</div>
+
+			</div>
+
+
+
+		</div><!-- /.team__inner -->
+	</div><!-- /.container -->
+</div><!-- /.team -->
+
+
+
+<!-- Testmonuals -->
+<div class="reviews">
+	<div class="container">
+
+		<div class="reviews__item">
+			<div class="reviews__photo">
+				<img class="reviews__img" src="img-3/reviews/23.png" alt="">
+			</div>
+
+			<div class="reviews__content">
+				<div class="reviews__text">
+					Мы работаем с различными стилями и направлениями, от классических до современных, и всегда стремимся создать гармоничное и эстетически привлекательное пространство. 
+				</div>
+
+				<div class="reviews__autor">
+					Команда MODERNIUM
+				</div>
+
+			</div>
+
+		</div>
+
+	</div><!-- /.container -->
+</div><!-- /.reviews -->
+		
+
+<!-- Download -->	
+
+<div class="download">
+	<div class="container">
+		<h3 class="download__title">Хотите проект мечты?Запишитесь на консультацию!</h3>
+		<div class="download__text"><p>Subscribe to us on social media</p></div>
+		<a class="btn btn--red btn--long" href="#">Записаться</a>
+	</div>
+</div>
+
+
+<!-- Footer -->	
+<footer class="footer">
+	<div class="container">
+		<div class="footer__inner">
+			<div class="footer__block">
+				<h4 class="footer__title">Где находимся</h4>
+				<address class="footer__address">
+					<div>Санкт-Петербург|Москва</div>
+					<div>Санкт-Петербург, м Кировский завод, ул Маршала Говорова 29АК</div>
+				 </address>
+			</div>
+
+			<div class="footer__block">
+				<h4 class="footer__title">social media</h4>
+					<div class="social social--footer">
+					<a class="social__item" href="#" target="_blank">
+						<svg class="social__icon">
+							<use xlink:href="#facebook"></use>
+						</svg>
+					</a>
+					
+					<a class="social__item" href="#" target="_blank">
+						<svg class="social__icon">
+							<use xlink:href="#twitter"></use>
+						</svg>
+					</a>
+
+					<a class="social__item" href="#" target="_blank">
+						<svg class="social__icon">
+							<use xlink:href="#linkedin"></use>
+						</svg>
+					</a>
+				</div>
+			</div>
+
+			<div class="footer__block">
+				<h4 class="footer__title">About MODERNIUM</h4>
+				<div class="footer__text">
+					Мы — семейная студия дизайна интерьера в Санкт-Петербурге и Москве. У нас большая дружная команда — визуализаторы, архитекторы, чертежники, комплектаторы, дизайнеры.
+				</div>
+			</div>
+
+		</div> <!-- /.inner -->
+
+	</div><!-- /.container -->
+
+
+
+	<div class="copyright">
+		<div class="container">
+			<div class="copyright__text">
+				<div>Copyright © 2024 MODERNIUM. All Rights Reserved</div>
+				<div> Made with <img class="copyright__img" src="img/heart.png"> <span>by Kamal Chaneman </span> </div>
+			</div>
+		</div>
+	</div>
+
+</footer><!-- /.footer -->
+
+
+
+	</body>
+</html>
